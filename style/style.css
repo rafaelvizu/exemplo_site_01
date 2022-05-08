@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Passion+One&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+
+:root {
+    --cor01: #010221;
+    --cor02: #0A7373;
+    --cor03: #B7BF99;
+    --cor04: #EDAA25;
+    --cor05: #C43302;
+
+    --fonte01: 'Macondo', cursive;
+    --fonte02: 'Kanit', sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: var(--cor03);
+}
+
+header {
+    background-color: var(--cor01);
+    text-shadow: 3px 2px black;
+    text-align: center;
+    box-shadow: 0px 12px 6px rgb(0 0 0 / 24%);
+}
+
+section > img, video {
+    width: 90%;
+    margin: auto;
+    display: block;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.493);
+    border-radius: 1em;
+}
+header > h1 {
+    padding-top: 25px;
+    font-size: 6em;
+    font-family: var(--fonte02);
+    color: white;
+    text-decoration: underline;
+}
+
+header > p {
+    padding-bottom: 25px;
+    font-size: 1.4em;
+    font-family: var(--fonte01);
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+}
+
+header > p:hover {
+    color: var(--cor05);
+}
+
+
+main {
+    box-shadow: 12px 12px 5px rgba(0, 0, 0, 0.24);
+    text-align: justify;
+    min-width: 250px;
+    max-width: 700px;
+    margin: auto;
+    background-color: wheat;
+    font-size: 1.6em;
+}
+
+main > h1, h2 {
+    padding-top: 1em;
+    font-family: var(--fonte02);
+    text-decoration: underline;
+}
+
+section > p {
+    font-family: var(--fonte01);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.342);
+    text-indent: 10%;
+    line-height: 1.6em;
+}
+
+section>p, main>h1, h2 {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+section.img {
+    display: inline-block;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.img > p {
+    background-color: #01022169;
+    color: white;
+}
+
+section#img1 {
+    background-image: url(../imgs/bordeaux.jpg);
+
+}
+
+section#img2 {
+    background-image: url(../imgs/elephant.jpg);
+}
+
+section#img3 {
+    background-image: url(../imgs/fantasy.jpg);
+}
+
+section > p > a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+section > p > a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 10px;
+    background-color: var(--cor05);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+    box-shadow: 0px 12px 6px rgb(0 0 0 / 24%);
+    font-family: var(--fonte01);
+    border-radius: 0.3em 0.3em 0em 0em;
+}
+
+footer > p > a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
+
+
