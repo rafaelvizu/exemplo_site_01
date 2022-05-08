@@ -9,6 +9,7 @@
     --cor03: #B7BF99;
     --cor04: #EDAA25;
     --cor05: #C43302;
+    --cor06: rgb(245, 222, 179);
 
     --fonte01: 'Macondo', cursive;
     --fonte02: 'Kanit', sans-serif;
@@ -65,7 +66,7 @@ main {
     min-width: 250px;
     max-width: 700px;
     margin: auto;
-    background-color: wheat;
+    background-color: var(--cor06);
     font-size: 1.6em;
 }
 
