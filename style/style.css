@@ -90,6 +90,10 @@ section>p, main>h1, h2 {
     padding-right: 3vw;
 }
 
+img.icon_download {
+    height: 20px;
+}
+
 section.img {
     display: inline-block;
     background-attachment: fixed;
