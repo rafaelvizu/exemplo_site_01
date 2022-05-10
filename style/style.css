@@ -147,4 +147,10 @@ footer > p > a:hover {
     text-decoration: underline;
 }
 
+footer > p > img {
+    width: 20px;
+    vertical-align: middle;
+
+}
+
 
